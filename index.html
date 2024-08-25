@@ -1,35 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tea House</title>
 
+    
     <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    
+    <script src="https://kit.fontawesome.com/79d8befda9.js" crossorigin="anonymous"></script>
+    <!-- Font Awesome -->
 
-    <!-- Tailwind CSS --> 
-     
+
+
+    <!-- Tailwind CSS -->
+
     <script src="https://cdn.tailwindcss.com"></script>
 
     <script>
         tailwind.config = {
-          theme: {
-            extend: {
-              colors: {
-                clifford: '#da373d',
-              }
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
             }
-          }
         }
-      </script>
-    <!-- Font Awesome -->
+    </script>
 
-    <script src="https://kit.fontawesome.com/79d8befda9.js" crossorigin="anonymous"></script>
+
 </head>
+
 <body>
-    
+    <main class="max-w-6xl mx-auto">
+        <!-- Hero Section -->
+
+        <div class="flex justify-between items-center">
+
+            <div class="w-6/12 space-y-5">
+                <h1 class="uppercase font-extrabold text-7xl">It's good tea time at The Tea House</h1>
+
+                <p class="text-gray-600">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste
+                    Buds.</p>
+
+                <button
+                    class="bg-gradient-to-r from-[#FF8938] to-[#FF0000] px-5 py-4 rounded-lg font-bold text-xl">
+                    Explore More <i class="fa-solid fa-arrow-right -rotate-45"></i>
+                </button>
+            </div>
+
+
+            <div class="relative">
+
+                <img src="images/banner.png" alt="">
+
+                <div class="flex items-center justify-center py-4 px-5 shadow-2xl bg-white rounded-lg gap-3 absolute bottom-4 left-28">
+                    <i class="fa-solid fa-star text-yellow-300 text-2xl"></i>
+
+                    <div>
+                        <p class="font-extrabold text-2xl">5.00</p>
+                        <p class="text-gray-500">Trust Pilot Ratings</p>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+
+        <!-- Hero Section -->
+
+
+
+
+    </main>
 </body>
+
 </html>
